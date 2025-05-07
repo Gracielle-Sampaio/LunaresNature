@@ -35,6 +35,22 @@ header h1{
   text-transform: uppercase;
   widht:bold;
 }
+.cabecalho{
+ margin:50px;
+  display:flex;
+  align-items:center;
+}
+.cabtext{
+  max-width:400px;
+  padding-right:80px;
+}
+.cabtext h1{
+  padding: 20px 0;
+  color:var(--gold);
+}
+.cabecalho img{
+  width:200px;
+}
 main{
   margin:auto;
   max-width:800px;
@@ -91,13 +107,21 @@ form input{
   border-radius:20px;
   border:none;
 }
-form buttom{
+form .buttom{
+  text-transform:uppercase;
+  width:bold;
+  color:var(--white);
   background-color:var(--gold);
 }
 footer{
   display:flex;
   justify-content:center;
-  
+  background-color:var(--gold);
+  padding:50px;
+  color:var(--white);
+}
+footer ul{
+  margin-left:80px;
 }
 .icon{
   width:50px;
